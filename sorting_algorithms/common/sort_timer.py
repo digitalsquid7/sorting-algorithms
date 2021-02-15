@@ -1,7 +1,7 @@
 from time import time
 from random import randint
 
-from src.sorting_algorithms import SortingAlgorithm
+from common.algorithms import SortingAlgorithm
 
 
 class SortTimer:

@@ -1,7 +1,7 @@
 import unittest
 
-from src.sorting_algorithm_factory import sorting_algorithm_factory
-from src.sorting_algorithms import SortingAlgorithm
+from common.sorting_algorithm_factory import sorting_algorithm_factory
+from common.algorithms import SortingAlgorithm
 
 
 class TestSortingAlgorithmFactory(unittest.TestCase):

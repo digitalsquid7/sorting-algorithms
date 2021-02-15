@@ -1,5 +1,5 @@
 import unittest
-import src.sorting_algorithms as sa
+import common.algorithms as sa
 
 
 class TestBase:
