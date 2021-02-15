@@ -8,8 +8,14 @@ class SortingAlgorithm(abc.ABC):
     def sort(self, unordered_list: list) -> list:
         """Sorts an unordered list of numbers.
 
-        :param unordered_list: unordered list of numbers
-        :return: ordered list of numbers
+        Parameters
+        ----------
+        unordered_list: an unordered list of numbers that needs to be sorted in ascending order.
+
+        Returns
+        -------
+        list
+            ordered version of the unordered_list provided
         """
         pass
 
