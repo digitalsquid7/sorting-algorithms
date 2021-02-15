@@ -43,7 +43,7 @@ class TestBase:
         def test_float_list(self):
             unordered = [234.232, 2.334, 0.1212, -12.43322, -1001.232222, 20.]
             ordered = self.sorting_algorithm.sort(unordered)
-            expected = [-345, -87, -23, -4, -1, 0, 30, 90, 234, 3453]
+            expected = [-1001.232222, -12.43322, 0.1212, 2.334, 20.0, 234.232]
             self.assertEqual(expected, ordered)
 
 
