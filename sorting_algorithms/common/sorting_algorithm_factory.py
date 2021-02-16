@@ -1,4 +1,4 @@
-import common.algorithms as sa
+from . import algorithms as sa
 
 
 def sorting_algorithm_factory(algorithm_name: str) -> sa.SortingAlgorithm:

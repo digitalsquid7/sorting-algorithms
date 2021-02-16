@@ -1,7 +1,7 @@
 import unittest
 
-from common.sort_timer import SortTimer
-from common.algorithms import BubbleSort
+from sorting_algorithms.common.sort_timer import SortTimer
+from sorting_algorithms.common.algorithms import BubbleSort
 
 
 class TestSortTimer(unittest.TestCase):
