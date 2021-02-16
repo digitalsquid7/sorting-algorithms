@@ -3,7 +3,7 @@ from common.sorting_algorithm_factory import sorting_algorithm_factory
 
 
 def main():
-    """Compares the average time to sort lists of various sorting algorithms."""
+    """Compares the average time to sort unordered lists with various sorting algorithms."""
 
     algorithm_names = (
         "Bubble Sort",
